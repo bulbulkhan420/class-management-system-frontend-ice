@@ -1,0 +1,86 @@
+.footer {
+    background-color: #2c3e50; /* Change background color */
+    color: #ecf0f1; /* Change text color */
+    padding: 20px 0;
+  }
+  
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .socialMedia {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    color: #ecf0f1; /* Change icon color */
+    margin: 0 15px;
+    font-size: 28px;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #3498db; /* Change hover color */
+  }
+  
+  .footerInfo {
+    text-align: center;
+  }
+  
+  .footerInfo p {
+    margin: 5px 0;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .footerContainer {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 20px;
+    }
+  
+    .icon {
+      margin: 0 10px;
+      font-size: 24px;
+    }
+  
+    .footerInfo p {
+      margin: 3px 0;
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .footerContainer {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .footerInfo {
+      text-align: left;
+    }
+  
+    .footerInfo p {
+      margin: 5px 0;
+      font-size: 16px;
+     
+    }
+  }
+  .forbutton{
+    background-color: #2c3e50;
+    width:'200px';
+    height:'35px';
+    color:'aliceblue';
+    padding: 5px;
+    
+  }
+  .forbutton:hover{
+   background-color: rgb(4, 28, 67);
+  }
